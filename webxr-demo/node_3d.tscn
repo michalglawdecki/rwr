@@ -21,7 +21,7 @@ mesh = ExtResource("2_u7hya")
 tracker = &"right_hand"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="XROrigin3D/RightController"]
-transform = Transform3D(0.764359, -0.644791, 0, 0.644791, 0.764359, 0, 0, 0, 1, 1.24445, 0.332123, -0.763613)
+transform = Transform3D(-0.719307, -0.657402, 0.224544, 0.679189, -0.73341, 0.0285018, 0.145945, 0.173009, 0.974047, 1.24445, 0.332123, -0.763613)
 mesh = ExtResource("2_u7hya")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
