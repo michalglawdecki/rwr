@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1763038914
+11537_Hand_v3.obj::Mesh::3536405388625732553::1763038735::1763038916::1::::<><>::
+export_presets.cfg::TextFile::-1::1762364879::0::1::::<><>::
+icon.svg::CompressedTexture2D::1143797321341327129::1762364879::1762365408::1::::<><>::
+index.apple-touch-icon.png::CompressedTexture2D::8336070696798995188::1762364879::1762365408::1::::<><>::
+index.icon.png::CompressedTexture2D::7389222973095574870::1762364879::1762365408::1::::<><>::
+index.png::CompressedTexture2D::4081515459000097341::1762364879::1762365408::1::::<><>::
+node_3d.gd::GDScript::-1::1762364879::0::1::::<>Node3D<>::
+node_3d.tscn::PackedScene::861386273640827261::1763038791::0::1::::<><>::res://node_3d.gd<>uid://bqnccytjuq2q4::::res://11537_Hand_v3.obj

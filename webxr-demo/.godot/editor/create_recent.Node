@@ -1,0 +1,11 @@
+MeshInstance3D
+RayCast3D
+WorldEnvironment
+DirectionalLight3D
+Node3D
+CollisionShape3D
+StaticBody3D
+CanvasLayer
+XRController3D
+XRCamera3D
+XROrigin3D

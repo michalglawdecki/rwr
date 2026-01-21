@@ -1,0 +1,13 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1768999374
+11537_Hand_v3.obj::Mesh::3536405388625732553::1763038735::1763038916::1::::<><><>0<>0<>044333c857e8c6fc5f4ef06999dd3da8<>res://.godot/imported/11537_Hand_v3.obj-516855b842cf2823132218059aa2dac7.mesh<*>res://.godot/imported/11537_Hand_v3.obj-516855b842cf2823132218059aa2dac7.mesh::
+export_presets.cfg::TextFile::-1::1768998324::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::1143797321341327129::1762364879::1762365408::1::::<><><>0<>0<>78820c897bf5a21107c45d1f2f1cdd9f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_3d.gd::GDScript::5097857178348095342::1768989528::0::1::::<>Node3D<><>0<>0<><>::
+node_3d.tscn::PackedScene::861386273640827261::1768998404::0::1::::<><><>0<>0<><>::uid://cevo70ewggosc::::res://node_3d.gd<>uid://40gnt0umfvek::::res://locomotion.gd<>uid://bqnccytjuq2q4::::res://11537_Hand_v3.obj<>uid://dcmakcalqcv6a::::res://teleport.gd
+locomotion.gd::GDScript::2087474464120524558::1768996444::0::1::::<>XROrigin3D<><>0<>0<><>::
+teleport.gd::GDScript::7324430234911109474::1768995832::0::1::::<>XRController3D<><>0<>0<><>::
+::res://docs/::1768999374
+index.apple-touch-icon.png::CompressedTexture2D::8336070696798995188::1762364879::1768999382::1::::<><><>0<>0<>567947644485fa5ca84d7757f09f0960<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::7389222973095574870::1762364879::1768999382::1::::<><><>0<>0<>ec019da3fc29459ba44f7f71052a19d5<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::4081515459000097341::1762364879::1768999382::1::::<><><>0<>0<>e5491549ac25e7acd7a9351a5c467e88<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::

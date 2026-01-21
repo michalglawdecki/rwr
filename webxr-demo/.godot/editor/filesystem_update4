@@ -1,0 +1,5 @@
+res://node_3d.tscn
+res://node_3d.gd
+res://teleport.gd
+res://locomotion.gd
+res://export_presets.cfg
