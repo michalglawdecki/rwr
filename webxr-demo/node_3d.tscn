@@ -1,7 +1,13 @@
-[gd_scene load_steps=16 format=3 uid="uid://mji52oo8sdl2"]
+[gd_scene load_steps=18 format=3 uid="uid://mji52oo8sdl2"]
 
 [ext_resource type="Script" uid="uid://cevo70ewggosc" path="res://node_3d.gd" id="1_5yfs0"]
 [ext_resource type="ArrayMesh" uid="uid://bqnccytjuq2q4" path="res://11537_Hand_v3.obj" id="2_u7hya"]
+[ext_resource type="Script" uid="uid://dcmakcalqcv6a" path="res://teleport.gd" id="3_a0tk4"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jka67"]
+top_radius = 0.1
+bottom_radius = 0.1
+height = 0.02
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_noarx"]
 size = Vector2(20, 20)
@@ -58,6 +64,7 @@ skeleton = NodePath("../..")
 
 [node name="RightController" type="XRController3D" parent="XROrigin3D"]
 tracker = &"right_hand"
+script = ExtResource("3_a0tk4")
 
 [node name="HandRightRoot" type="Node3D" parent="XROrigin3D/RightController"]
 transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 0, 0, 0)
@@ -66,6 +73,13 @@ transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 0, 0, 0)
 transform = Transform3D(0.764359, -0.644791, 0, 0.644791, 0.764359, 0, 0, 0, 1, 1.24445, 0.332123, -0.763613)
 mesh = ExtResource("2_u7hya")
 skeleton = NodePath("../..")
+
+[node name="TeleportRay" type="RayCast3D" parent="XROrigin3D/RightController"]
+target_position = Vector3(0, 0, -10)
+
+[node name="TeleportMarker" type="MeshInstance3D" parent="XROrigin3D/RightController"]
+visible = false
+mesh = SubResource("CylinderMesh_jka67")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
