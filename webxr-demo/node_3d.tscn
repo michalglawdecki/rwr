@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://mji52oo8sdl2"]
 
-[ext_resource type="Script" path="res://node_3d.gd" id="1_5yfs0"]
+[ext_resource type="Script" uid="uid://cevo70ewggosc" path="res://node_3d.gd" id="1_5yfs0"]
 [ext_resource type="ArrayMesh" uid="uid://bqnccytjuq2q4" path="res://11537_Hand_v3.obj" id="2_u7hya"]
 
 [node name="Node3D" type="Node3D"]
@@ -13,16 +13,22 @@ script = ExtResource("1_5yfs0")
 [node name="LeftController" type="XRController3D" parent="XROrigin3D"]
 tracker = &"left_hand"
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="XROrigin3D/LeftController"]
+[node name="HandLeftRoot" type="Node3D" parent="XROrigin3D/LeftController"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="XROrigin3D/LeftController/HandLeftRoot"]
 transform = Transform3D(0.698603, -0.71551, 0, 0.71551, 0.698603, 0, 0, 0, 1, 0.364734, -0.128742, -0.031348)
 mesh = ExtResource("2_u7hya")
+skeleton = NodePath("../..")
 
 [node name="RightController" type="XRController3D" parent="XROrigin3D"]
 tracker = &"right_hand"
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="XROrigin3D/RightController"]
+[node name="HandRightRoot" type="Node3D" parent="XROrigin3D/RightController"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="XROrigin3D/RightController/HandRightRoot"]
 transform = Transform3D(0.764359, -0.644791, 0, 0.644791, 0.764359, 0, 0, 0, 1, 1.24445, 0.332123, -0.763613)
 mesh = ExtResource("2_u7hya")
+skeleton = NodePath("../..")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
