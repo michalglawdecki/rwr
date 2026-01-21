@@ -1,6 +1,7 @@
-[gd_scene load_steps=18 format=3 uid="uid://mji52oo8sdl2"]
+[gd_scene load_steps=19 format=3 uid="uid://mji52oo8sdl2"]
 
 [ext_resource type="Script" uid="uid://cevo70ewggosc" path="res://node_3d.gd" id="1_5yfs0"]
+[ext_resource type="Script" uid="uid://40gnt0umfvek" path="res://locomotion.gd" id="2_r3fl7"]
 [ext_resource type="ArrayMesh" uid="uid://bqnccytjuq2q4" path="res://11537_Hand_v3.obj" id="2_u7hya"]
 [ext_resource type="Script" uid="uid://dcmakcalqcv6a" path="res://teleport.gd" id="3_a0tk4"]
 
@@ -48,6 +49,7 @@ sky = SubResource("Sky_a0tk4")
 script = ExtResource("1_5yfs0")
 
 [node name="XROrigin3D" type="XROrigin3D" parent="."]
+script = ExtResource("2_r3fl7")
 
 [node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D"]
 
